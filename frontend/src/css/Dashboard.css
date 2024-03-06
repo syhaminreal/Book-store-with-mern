@@ -1,0 +1,18 @@
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dashboard-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px; /* Adjust width according to your design */
+  }
+  
+  .dashboard-box h2 {
+    margin: 0;
+  }
+  

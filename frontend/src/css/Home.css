@@ -1,0 +1,32 @@
+.hero{
+display: flex;
+background-color: #301934;
+color: #ffc107;
+height: 92vh;
+padding-inline: 30px;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero-text {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    word-spacing: 1%;
+}
+.hero-description{
+    font-size: 1.2rem;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.hero-image {
+    flex: 1;
+    background: url('https://www.bing.com/images/search?view=detailV2&ccid=mzswaAD7&id=10097FE390CFC778232C4094F2B44B7770C6D2E3&thid=OIP.mzswaAD71mNB0PlTYfO3rwHaD8&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.9b3b306800fbd66341d0f95361f3b7af%3frik%3d49LGcHdLtPKUQA%26riu%3dhttp%253a%252f%252fhdqwalls.com%252fwallpapers%252fjon-snow-best-art-img.jpg%26ehk%3djMoFYOLZRbf7JbIrAXKnmYRpn3Uf43hSsIoev9zsOno%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1716&expw=3216&q=Got+Jon+Snow&simid=608011964972081438&FORM=IRPRST&ck=9F7A4D1880067ACD93FF71A7A58BCF4B&selectedIndex=27&itb=0&ajaxhist=0&ajaxserp=0') center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
